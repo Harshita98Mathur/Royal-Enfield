@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    /* background-image: url("../assests/royal_enfield_BG.jpg"); */
+}
+body{
+    background-image: url("../assests/Background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px white;
+    background-color: white;
+    border-color: white;
+    border-radius:10px;
+    margin: 5px 5px ;
+    transform: uppercase;
+}
+.navbar-style ul li a{
+    color: rgb(236, 86, 27);
+    font-size: 20px;
+}
+.navbar-style ul li a:hover{
+    color:cornflowerblue;
+    border-radius: 10%;
+    box-shadow: 0 2px 4px cornflowerblue;
+    background:none;
+}
+#logo{
+    width:145px;
+    height:60px;
+}
+.icon-bar{
+    background: rgb(236, 86, 27);
+}
+.hero .container{
+    color:whitesmoke;
+    font: italic 1.5em "Fira Sans", serif;
+}
+.hero .container .label{
+    color:whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 1px lightcoral;
+}
+#old-logo{
+    width:445px;
+    height:340px;
+}
+#history{
+    width:450px;
+    height:250px;
+}
+

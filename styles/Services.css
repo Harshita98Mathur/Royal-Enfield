@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding:0;
+    /* background-image: url("../assests/royal_enfield_BG.jpg"); */
+}
+body{
+    background-image: url("../assests/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    height: 15vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px white;
+    background-color: white;
+    border-color: white;
+    border-radius:10px;
+    margin: 10px 10px ;
+}
+.navbar-style ul li a{
+    color: rgb(236, 86, 27);
+    font-size: 20px;
+}
+.navbar-style ul li a:hover{
+    color:cornflowerblue;
+    border-radius: 10%;
+    box-shadow: 0 2px 4px cornflowerblue;
+    background:none;
+}
+#logo{
+    width:145px;
+    height:60px;
+}
+.icon-bar{
+    background: rgb(236, 86, 27);
+}
+.hero .container{
+    color:whitesmoke;
+    font: italic 1.5em "Fira Sans", serif;
+}
+.hero .container h1{
+    color:rgb(236, 86, 27);
+    font: italic 2.5em "Fira Sans", serif;
+    text-shadow: 2px 2px  whitesmoke;
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    background-color: black;
+  }
+select option{
+    color:whitesmoke;
+} 
+.hero h2{
+    color:whitesmoke;
+    font: italic 2.5em "Fira Sans", serif;
+    text-align: center;
+    text-shadow: 2px 2px lightcoral;
+}
+.btn{
+    color:whitesmoke;
+    font-size: large;
+    font-style: oblique;
+    background-color:royalblue;
+    box-shadow: 4px 4px lightcoral;
+}
+.hero .btn:hover{
+    color:whitesmoke;
+    box-shadow: 4px 4px rgb(245, 29, 29);
+    
+}
+
+
+
